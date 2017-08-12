@@ -1,0 +1,11 @@
+<div class="banner">
+    <h1 class= "welcome">Classes</h1>
+</div>
+<div ng-controller="listController">
+    <ul>
+        <li style="border: 2px solid goldenrod; border-right-width:20px; margin-top: 5px" ng-repeat="class in data">
+            <p class= "message"> Class: {{class}} </p>
+               <button ng-click="getId(class.id)"value="submit" class="optionbutton">[View info]</button>
+        </li>
+    </ul>
+</div>
