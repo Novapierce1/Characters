@@ -4,11 +4,11 @@
 <div ng-controller="listController">
     <ul>
         <div class="spread" ng-repeat="character in data">
-            <img class="image" src="{{character.Image}}"> 
+            <img class="image" ng-src="{{character.Image}}"> 
             <h3 class= "message"> Job: {{character.job}} </h3>
             <h3 class= "message"> Type: {{character.type}}</h3>
            
-               <button class="frontdoor" ng-click="getId(character.id)"value="submit" class="optionbutton">[View info]</button>
+               <button class="frontdoor" ng-click="getId(character.id)" value="submit" class="optionbutton">[View info]</button>
         </div>
     </ul>
 </div>
