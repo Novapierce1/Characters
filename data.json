@@ -24,7 +24,8 @@
         "type":"Non-Magic", 
         "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/7d/FFT_Archer.jpg/revision/latest?cb=20070228173549",
         "info":"Equipped with a bow and arrow, this warrior provides valuable long-range attacks. May Aim for higher damage.",
-        "weapon": "Bow, Crossbow"
+        "weapon": "Bow, Crossbow",
+        "armor":"Hats, Clothes"
     }, 
     {
         "id":"4", 
