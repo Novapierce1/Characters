@@ -1,194 +1,289 @@
 [
     {
         "id":"1", 
-        "job":"squire", 
+        "job":"Squire", 
         "type":"Non-Magic", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/5/51/Squires.jpg/revision/latest?cb=20090401223303"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/5/51/Squires.jpg/revision/latest?cb=20090401223303",
+        "info":"This job serves as the foundation for all others, forming the first step on the road to becoming a legendary warrior.",
+        "weapon": "Knives, Swords, Axes, Flails",
+        "armor": "Hats, Clothes"
     },
     {
         "id":"2", 
-        "job":"knight", 
+        "job":"Knight", 
         "type":"Non-Magic", 
-        "image":"http://www.gamer.ru/system/attached_images/images/000/117/508/original/knights.jpg"
+        "Image":"http://www.gamer.ru/system/attached_images/images/000/117/508/original/knights.jpg",
+        "info":"A brave and chivalrous warrior of unmatched skill. Uses a knight's sword to unleash the Arts of War.",
+        "weapon": "Sword, Knight Sword",
+        "armor": "Helmets, Armor, Robes"
     }, 
     
     {
         "id":"3", 
         "job":"Archer", 
         "type":"Non-Magic", 
-        "image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/7d/FFT_Archer.jpg/revision/latest?cb=20070228173549"
+        "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/7d/FFT_Archer.jpg/revision/latest?cb=20070228173549",
+        "info":"Equipped with a bow and arrow, this warrior provides valuable long-range attacks. May Aim for higher damage.",
+        "weapon": "Bow, Crossbow"
     }, 
     {
         "id":"4", 
         "job":"Monk", 
         "type":"Non-Magic", 
-        "image":"https://vignette1.wikia.nocookie.net/finalfantasy/images/d/d3/FFT_Monk.jpg/revision/latest?cb=20090402230052"
+        "Image":"https://vignette1.wikia.nocookie.net/finalfantasy/images/d/d3/FFT_Monk.jpg/revision/latest?cb=20090402230052",
+        "info":"A warrior, devoted to physical training, whose unarmed attacks are deadly. May use Martial Arts.",
+        "weapon": "None",
+        "armor": "Clothes"
     }, 
     {
         "id":"5", 
         "job":"Thief", 
         "type":"Non-Magic", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/2/20/FFT_Thief.jpg/revision/latest?cb=20090402231758"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/2/20/FFT_Thief.jpg/revision/latest?cb=20090402231758",
+        "info":"A warrior who can steal anything from anyone. Thier skills are legendary.",
+        "weapon": "Knives",
+        "armor": "Hats, Clothes"
     }, 
     {
         "id":"6", 
         "job":"Geomancer", 
         "type":"Non-Magic", 
-        "image":"http://vignette4.wikia.nocookie.net/finalfantasy/images/7/7c/FFT_Geomancer.jpg/revision/latest?cb=20090402235257"
+        "Image":"http://vignette4.wikia.nocookie.net/finalfantasy/images/7/7c/FFT_Geomancer.jpg/revision/latest?cb=20090402235257",
+        "info":"A warrior who uses Geomancy to control powers lying dormant in the natural terrain.",
+        "weapon": "Swords,Axes",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"7", 
         "job":"Lancer", 
         "type":"Non-Magic", 
-        "image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/1/19/Lancer.jpg/revision/latest?cb=20090403104918"
+        "Image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/1/19/Lancer.jpg/revision/latest?cb=20090403104918",
+        "info":"A warrior who may make soaring Jump attacks even in full armor, the dragoon is also a master spearman.",
+        "weapon": "Polearms",
+        "armor": "Helmets, Armor, Robes"
     }, 
     {
         "id":"8", 
         "job":"Samurai", 
         "type":"Non-Magic", 
-        "image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/a/a8/FFT_Samurai.jpg/revision/latest?cb=20090403110430"
+        "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/a/a8/FFT_Samurai.jpg/revision/latest?cb=20090403110430",
+        "info":"Following a warrior ethic from a foreign land, the samurai uses Iaido techniques to attack with his or her katana.",
+        "weapon": "Katanas",
+        "armor": "Helmets, Armor, Robes"
     }, 
     {
         "id":"9", 
         "job":"Ninja", 
         "type":"Non-Magic", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/9/97/FFT_Ninja.jpg/revision/latest?cb=20090403231129"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/9/97/FFT_Ninja.jpg/revision/latest?cb=20090403231129",
+        "info":"A warrior who uses stealth to be all but invisible. The ninja may also Throw weapons at faraway enemies.",
+        "weapon": "Knives, Ninja Blades, Flails",
+        "armor": "Hats, Clothes"
     }, 
     {
         "id":"10", 
         "job":"Dancer", 
         "type":"Non-Magic", 
-        "image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/8/8a/Dancer.jpg/revision/latest/scale-to-width-down/294?cb=20080225083047"
+        "Image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/8/8a/Dancer.jpg/revision/latest/scale-to-width-down/294?cb=20080225083047",
+        "info":"A warrior who dances across the battlefield, garbed in colorful raiments.",
+        "weapon": "Knives, Cloth",
+        "armor": "Hats, Clothes"
     }, 
     {
         "id":"11", 
         "job":"Chemist", 
         "type":"Magic", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/a/ae/FFT_Chemist.jpg/revision/latest?cb=20090404120246"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/a/ae/FFT_Chemist.jpg/revision/latest?cb=20090404120246",
+        "info":"An expert in the use of items to recover HP or remove vexing status ailments.",
+        "weapon": "Knives, Guns",
+        "armor": "Hats, Clothes"
     }, 
     {
         "id":"12", 
         "job":"White Mage",
         "type":"Magic", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/b/b6/Priest.jpg/revision/latest?cb=20090404122508"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/b/b6/Priest.jpg/revision/latest?cb=20090404122508",
+        "info":"A warrior who taps into the powers of the divine, using White Magicks to cast spells of recovery and protection.",
+        "weapon": "Staves",
+        "armor": "Hats, Robes, Clothes"
     }, 
     {
         "id":"13", 
         "job":"Black Mage", 
         "type":"Magic", 
-        "image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/78/Wizardfft.jpg/revision/latest?cb=20090404124236"
+        "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/78/Wizardfft.jpg/revision/latest?cb=20090404124236",
+        "info":"A warrior who uses Black Magicks to channel elemental powers into powerful offensive spells.",
+        "weapon": "Rods",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"14", 
         "job":"Mystic", 
         "type":"Magic", 
-        "image":"https://s-media-cache-ak0.pinimg.com/originals/ce/de/6a/cede6aeaae730d0d8fbd31dc5beee117.png"
+        "Image":"https://s-media-cache-ak0.pinimg.com/originals/ce/de/6a/cede6aeaae730d0d8fbd31dc5beee117.png",
+        "info":"A warrior who uses the Mystic Arts to bend the forces of the cosmos to his or her will.",
+        "weapon": "Poles, Rods, Staves, Books",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"15", 
         "job":"Timemage",
         "type":"Magic", 
-        "image":"https://vignette1.wikia.nocookie.net/finalfantasy/images/b/b6/FFT_Time_mage.jpg/revision/latest?cb=20090404230237"
+        "Image":"https://vignette1.wikia.nocookie.net/finalfantasy/images/b/b6/FFT_Time_mage.jpg/revision/latest?cb=20090404230237",
+        "info":"The Time Mage controls time and space. This sorcerer toys with the laws of the universe.",
+        "weapon": "Staves",
+        "armor": "Hats, Robes, Clothes"
     }, 
     {
         "id":"16", 
         "job":"Orator", 
         "type":"Magic", 
-        "image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/e/ec/FFT_Mediator.jpg/revision/latest?cb=20090405010014"
+        "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/e/ec/FFT_Mediator.jpg/revision/latest?cb=20090405010014",
+        "info":"A warrior who participates in battle using Speechcraft. Words, rather than swords, are the orator's weapons.",
+        "weapon": "Guns, Knives",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"17",
         "job":"Summoner", 
         "type":"Magic", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/e/ec/FFT_Summoner.jpg/revision/latest?cb=20090405133912"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/e/ec/FFT_Summoner.jpg/revision/latest?cb=20090405133912",
+        "info":"A warrior who may Summon the most powerful of spirits, the beings known as espers.",
+        "weapon": "Rods, Staves",
+        "armor": "Hats, Robes"
     }, 
     {
         "id":"18", 
         "job":"Bard", 
         "type":"Magic", 
-        "image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/f/fe/FFT_Bard.jpg/revision/latest/scale-to-width-down/229?cb=20111202173530"
+        "Image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/f/fe/FFT_Bard.jpg/revision/latest/scale-to-width-down/229?cb=20111202173530",
+        "info":"A warrior who uses his voice as a weapon. May use Bardsong to support his allies in battle.",
+        "weapon": "Musical Instrument",
+        "armor": "Hats, Clothes"
     }, 
     {
         "id":"19", 
         "job":"Calculator", 
         "type":"Magic", 
-        "image":"https://vignette1.wikia.nocookie.net/finalfantasy/images/7/77/Calculator.jpg/revision/latest?cb=20090405145306"
+        "Image":"https://vignette1.wikia.nocookie.net/finalfantasy/images/7/77/Calculator.jpg/revision/latest?cb=20090405145306",
+        "info":"A learned warrior who uses Arithmeticks to analyze natural phenomena and pinpoint magickal attacks.",
+        "weapon": "Poles, Robes",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"20", 
         "job":"Mime", 
         "type":"Magic", 
-        "image":"http://vignette3.wikia.nocookie.net/finalfantasy/images/6/6b/FFTacticsMime.jpg/revision/latest?cb=20090405192720"
+        "Image":"http://vignette3.wikia.nocookie.net/finalfantasy/images/6/6b/FFTacticsMime.jpg/revision/latest?cb=20090405192720",
+        "info":"A warrior who has abandoned his or her own identity, instead mimicking the actions of allies in battle.",
+        "weapon": "None",
+        "armor": "None"
     }, 
     {
         "id":"21", 
         "job":"Holy Knight", 
         "type":"Special", 
-        "image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/7e/Agrias.jpg/revision/latest?cb=20100705234845"
+        "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/7/7e/Agrias.jpg/revision/latest?cb=20100705234845",
+        "info":"Baptized in the divine light of the Church, the Holy Knight smites foes with powerful Holy Sword techniques.",
+        "weapon": "Swords, Knight Swords",
+        "armor": "Helmets, Armor, Robes, Shields"
     }, 
     {
         "id":"22", 
         "job":"Dark Knight", 
         "type":"Special", 
-        "image":"http://vignette1.wikia.nocookie.net/finalfantasy/images/c/c7/FFT_DarkKnight.jpg/revision/latest?cb=20070420194940"
+        "Image":"http://vignette1.wikia.nocookie.net/finalfantasy/images/c/c7/FFT_DarkKnight.jpg/revision/latest?cb=20070420194940",
+        "info":"A fallen knight who has turned his back on the light of the gods. He leeches the souls of enemies with his Fell Sword.",
+        "weapon": "Swords",
+        "armor": "Helmets, Armor, Robes, Shields"
     }, 
     {
         "id":"23", 
         "job":"Cleric", 
         "type":"Special", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/3/3b/Fft-alma-beoulve.jpg/revision/latest/scale-to-width-down/260?cb=20161006233123"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/3/3b/Fft-alma-beoulve.jpg/revision/latest/scale-to-width-down/260?cb=20161006233123",
+        "info":"A true believer in the divine power of the gods, using Holy Magick to protect loved ones.",
+        "weapon": "Staves",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"24", 
         "job":"Engineer", 
         "type":"Special", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/e/e3/Mustadio.jpg/revision/latest?cb=20100705233134"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/e/e3/Mustadio.jpg/revision/latest?cb=20100705233134",
+        "info":"An engineer working to revive lost technologies, capable of firing guns highly accurately with the Aimed Shot ability.",
+        "weapon": "Guns",
+        "armor": "Hats"
     }, 
     {
         "id":"25", 
         "job":"Astrologist", 
         "type":"Special", 
-        "image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/7/71/Olan.jpg/revision/latest?cb=20100705235113"
+        "Image":"https://vignette3.wikia.nocookie.net/finalfantasy/images/7/71/Olan.jpg/revision/latest?cb=20100705235113",
+        "info":"A learned augur who uses Astrology to manipulate fate and sway the course of battle.",
+        "weapon": "Dictionaries",
+        "armor": "Hats, Clothes, Robes"
     }, 
     {
         "id":"26", 
         "job":"Divine Knight",
         "type":"Special", 
-        "image":"http://static.zerochan.net/Meliadoul.Tengille.full.125057.jpg"
+        "Image":"http://static.zerochan.net/Meliadoul.Tengille.full.125057.jpg",
+        "info":"A Knight versed in both scripture and sword, sworn to the service of the Gods.",
+        "weapon": "Swords, Knight Swords, Crossbows, Polearms",
+        "armor": "Helmets, Armor, Clothes, Robes"
     }, 
     {
         "id":"27", 
         "job":"Sword Saint", 
         "type":"Special", 
-        "image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/1/15/Orlandu.jpg/revision/latest?cb=20100705234956"
+        "Image":"https://vignette2.wikia.nocookie.net/finalfantasy/images/1/15/Orlandu.jpg/revision/latest?cb=20100705234956",
+        "info":"A peerless warrior who commands an entire knightly order. It is said that none can match his swordplay.",
+        "weapon": "Ninja Blades, Swords, Knight Swords, Katana",
+        "armor": "Helmets, Hats, Armor, Clothes, Robes"
     }, 
     {
         "id":"28", 
         "job":"Arc Knight", 
         "type":"Special", 
-        "image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/9/9c/Fft-zalbaag-beoulve.jpg/revision/latest/scale-to-width-down/350?cb=20080203052939"
+        "Image":"https://vignette4.wikia.nocookie.net/finalfantasy/images/9/9c/Fft-zalbaag-beoulve.jpg/revision/latest/scale-to-width-down/350?cb=20080203052939",
+        "info":"A warrior sworn to the service of the gods, using the Sword Spirit ability to release a wave of spiritual power.",
+        "weapon": "Katana",
+        "armor": "Helmets, Hats, Armor, Clothes, Shields"
     }, 
     {
         "id":"29", 
         "job":"Assassin", 
         "type":"Special", 
-        "image":"https://i.pinimg.com/736x/0e/74/65/0e7465542b35fa93382407f32a7a3a30--character-concept-character-art.jpg"
+        "Image":"https://i.pinimg.com/736x/0e/74/65/0e7465542b35fa93382407f32a7a3a30--character-concept-character-art.jpg",
+        "info":"A diabolical killer trained by an order of assassins to quickly dispatch enemies with Subdual Arts.",
+        "weapon": "Katana, Ninja Blades",
+        "armor": "Hats, clothes"
     }, 
     {
         "id":"30", 
-        "job":"Temple Knight", 
+        "job":"Templar", 
         "type":"Special", 
-        "image":"http://vignette3.wikia.nocookie.net/finalfantasy/images/4/4f/Fft-dycedarg-beoulve.jpg/revision/latest?cb=20080203052805"
+        "Image":"http://vignette3.wikia.nocookie.net/finalfantasy/images/4/4f/Fft-dycedarg-beoulve.jpg/revision/latest?cb=20080203052805",
+        "info":"A devout knight who defends the Church from heretics. Uses Spellblade techniques to strike down the enemy.",
+        "weapon": "Knives, Sowrds, KNight Swords",
+        "armor": "Helmets, Armor, Robes, Shields"
     }, 
     {
         "id":"31", 
         "job":"Dragonkin", 
         "type":"Special", 
-        "image":"https://vignette4.wikia.nocookie.net/final-fantasy-tactics-the-war-of-the-lions/images/5/55/FFT_Bahamut.jpg/revision/latest?cb=20150714143655"
+        "Image":"https://vignette4.wikia.nocookie.net/final-fantasy-tactics-the-war-of-the-lions/images/5/55/FFT_Bahamut.jpg/revision/latest?cb=20150714143655",
+        "info":"Human in appearance, but descended of dragons. The blood of the Holy Dragon flows in her veins.",
+        "weapon": "Bags",
+        "armor": "Ribbons"
     }, 
     {
         "id":"32", 
         "job":"Soldier", 
         "type":"Special", 
-        "image":"https://static.comicvine.com/uploads/original/2/28028/738142-cloud.jpg"
+        "Image":"https://static.comicvine.com/uploads/original/2/28028/738142-cloud.jpg",
+        "info":"A mysterious otherworldly traveler capable of formidable Limit techniques when his rage reaches a breaking point.",
+        "weapon": "Swords",
+        "armor": "Hats, Ribbons, Clothes"
     }]

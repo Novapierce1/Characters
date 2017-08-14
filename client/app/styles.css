@@ -3,3 +3,57 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.Title{
+    margin: 20px;
+}
+
+.Titleimage{
+    width: 175%;
+    margin: 25px;
+}
+
+.detailimage{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+}
+
+.image {
+    height: 300px;
+    width: 200px;
+    margin: auto;
+}
+
+.box {
+    background-color:  #fff7e6;
+    border: 3px solid #c68c53;
+    margin: 5px; 
+    width:275px;
+    display: inline-block;
+}
+
+.spread{
+    background-color:  #fff7e6;
+    border: 3px solid #c68c53;
+    margin: 15px; 
+    display: inline-block;
+    padding: 5px;
+}
+
+h1, p, h3, h4, h2{
+    font-family: 'Ferrum';
+}
+
+.frontdoor{
+    font-family: 'Ferrum';
+    background-color: #dac292;
+    border-style: ridge;
+    position: relative;
+}
+
+.banner{
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}

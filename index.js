@@ -1,78 +1,74 @@
 var express = require('express');
-var url = require('url');
+var app = express();
 var fs = require('fs');
 var path = require('path');
-var app = express();
 var bodyParser = require('body-parser');
-var router = express.Router()
 var jsonPath = path.join(__dirname, 'data.json');
-var router = express.Router();
-
-app.use(bodyParser.json());
 var clientPath = path.join(__dirname, 'client');
+app.use(bodyParser.json());
+app.use(express.static(clientPath));
+
 
 console.log('starting Server');
 
 //get all characters
-app.route('/api')
+app.route('/list')
     .get(function(req, res){ 
         fs.readFile(jsonPath, 'utf-8', function (err, file){
-        
         if (err){
-            res.status(500).send('could not read file');
+            return res.status(500).send('could not read file');
         }
-        return res.send(file);
+            return res.send(file);
     });
 });
 
 //get specific character
-app.route('/api/one/:id')
-    .get(function(req, res){ console.log("trying to get one")
+app.route('/one/:id')
+    .get(function(req, res){ 
+        console.log("trying to get one")
         fs.readFile(jsonPath, 'utf-8', function(err, file){
             if (err){
-            res.status(500).send('could not read file');
+            return res.status(500).send('could not read file');
             } else {
-            var arr = JSON.parse(file);
-            var id = req.params.id;
-            var result;
-
+            var arr = JSON.parse(file),
+            id = req.params.id,
+            result;
             arr.forEach(function(character){
                 if (character.id === id){
-                    result = character; 
+                    result = character
                 }
             });
-            if (result === undefined) {
-                return res.sendStatus(404, 'Character not found');
-            } else {
-               return res.send(JSON.stringify(result));
+            if (result) {
+                res.send(result)
             }
         }
     })
 });
 //get character types
-app.route('/api/type/:type')
+app.route('/type/:type')
 .get(function(req, res){
         fs.readFile(jsonPath, 'utf-8', function(err, file){
             if (err) {
                 res.writeHead(500);
                 res.end('could not read file');
             } else {
-            var arr = JSON.parse(file);
+            var job = JSON.parse(file);
             var type = req.params.type;
-            var result;
-
-            arr.forEach(function(character){
-                if (character.type == type){
-                    result = character;
+            var response = job.filter(function(job) {
+                if(job.type){
+                    if (job.type.toLowerCase().trim() === type.toLowerCase().trim()) {
+                    return job;
+                    }
                 }
-            });
-            if (result === undefined) {
-                return res.sendStatus(404, 'Character type not found');
-            } else {
-                return res.send(JSON.stringify(result));
+
+            })
+                if (response) {
+                    res.send(response);
+                } else {
+                    res.sendStatus(404);
+                }
             }
-        }
+        });
     })
-});
 app.listen(3000);
 

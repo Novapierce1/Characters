@@ -1,11 +1,14 @@
 <div class="banner">
-    <h1 class= "welcome">Classes</h1>
+    <h1 class= "Title">Job List</h1>
 </div>
 <div ng-controller="listController">
     <ul>
-        <li style="border: 2px solid goldenrod; border-right-width:20px; margin-top: 5px" ng-repeat="class in data">
-            <p class= "message"> Class: {{class}} </p>
-               <button ng-click="getId(class.id)"value="submit" class="optionbutton">[View info]</button>
-        </li>
+        <div class="spread" ng-repeat="character in data">
+            <img class="image" src="{{character.Image}}"> 
+            <h3 class= "message"> Job: {{character.job}} </h3>
+            <h3 class= "message"> Type: {{character.type}}</h3>
+           
+               <button class="frontdoor" ng-click="getId(character.id)"value="submit" class="optionbutton">[View info]</button>
+        </div>
     </ul>
 </div>

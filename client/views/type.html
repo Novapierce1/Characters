@@ -1,0 +1,11 @@
+<div ng-controller="typeController">
+    <h1 class= "Title"> {{role.type}}</h1>
+    <ul>
+        <li class="spread" ng-repeat="role in type">
+            <button class="frontdoor" ng-click="getId(role.id)"value="submit" class="optionbutton">[View info]</button>
+            <h4 class= "message"> Job: {{role.job}} </h4>
+            <h4 class= "message"> Type: {{role.type}}</h4>
+           <img class="image" src="{{role.Image}}">
+        </li>
+    </ul>
+</div>
